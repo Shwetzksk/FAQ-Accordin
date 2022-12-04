@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style/styles.css" type="text/css" rel="stylesheet" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <section class="faq-card">
+      <img
+        src="./images/illustration-box-desktop.svg"
+        alt="box-illustration"
+        class="box-illustration"
+      />
+      <div class="faq__card-left">
+        <img
+          src="./images/bg-pattern-desktop.svg"
+          alt="background-pattern"
+          class="bg-pattern bg-pattern-desktop"
+        />
+        <img
+          src="./images/bg-pattern-mobile.svg"
+          alt="background-pattern"
+          class="bg-pattern bg-pattern-mobile"
+        />
+        <img
+          src="./images/illustration-woman-online-desktop.svg"
+          alt="women-illustration"
+          class="woman-illustration woman-illustration-desktop"
+        />
+        <img
+          src="./images/illustration-woman-online-mobile.svg"
+          alt="women-illustration"
+          class="woman-illustration woman-illustration-mobile"
+        />
+      </div>
+
+      <div class="faq__card-right">
+        <h1>FAQ</h1>
+        <div class="accord-container">
+          <div class="accord accord-1" id="accordion-1">
+            <div class="accord__title">
+              <h1>How many team members can I invite?</h1>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow-icon"
+                class="accord-arrow-1 accord-arrow"
+              />
+            </div>
+            <div class="accord__detail">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <div class="accord accord-2" id="accordion-2">
+            <div class="accord__title">
+              <h1>What is the maximum file upload size?</h1>
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow-icon"
+                class="accord-arrow-2"
+              />
+            </div>
+            <div class="accord__detail">
+              <p>
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </div>
+          <div class="accord accord-3" id="accordion-3">
+            <div class="accord__title">
+              <h1>How do I reset my password?</h1>
+              <img src="./images/icon-arrow-down.svg" alt="arrow-icon" />
+            </div>
+            <div class="accord__detail">
+              <p>
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <div class="accord accord-4" id="accordion-4">
+            <div class="accord__title">
+              <h1>Can I cancel my subscription?</h1>
+              <img src="./images/icon-arrow-down.svg" alt="arrow-icon" />
+            </div>
+            <div class="accord__detail">
+              <p>
+                Yes! Send us a message and we'll process your request no
+                questions asked.
+              </p>
+            </div>
+          </div>
+          <div class="accord accord-5" id="accordion-5">
+            <div class="accord__title">
+              <h1>Do you provide additional support?</h1>
+              <img src="./images/icon-arrow-down.svg" alt="arrow-icon" />
+            </div>
+            <div class="accord__detail">
+              <p>
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Shwetzksk" target="_blank">Shweta</a>.
+    </div>
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
